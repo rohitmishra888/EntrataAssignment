@@ -9,7 +9,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import com.entrata.testbase.TestBase;
@@ -19,20 +19,17 @@ public class Test2 extends TestBase {
 
 	public static WebDriverWait wait;
 
-	@BeforeTest
+	@BeforeClass
 	public void testSetup() {
-
+		driver.get(url);
+		driver.manage().window().maximize();
 		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-//		wait.until(
-//				driver -> ((JavascriptExecutor) driver).executeScript("return document.readyState").equals("complete"));
+
 
 	}
 	
 	@Test
 	public void testForinteractingwithInputBox() throws InterruptedException {
-		
-		//Handled cookies warning
-		driver.findElement(By.xpath("//div[@role='dialog']/button")).click();
 		
 		WebElement headerElement = driver.findElement(By.xpath("//input[@id='FirstName']"));
 		

@@ -1,25 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-07T13:34:54 IST" name="Suite" finished-at="2025-06-07T13:35:04 IST" duration-ms="10079">
+  <suite started-at="2025-06-09T01:03:12 IST" name="Suite" finished-at="2025-06-09T01:03:36 IST" duration-ms="24136">
     <groups>
     </groups>
-    <test started-at="2025-06-07T13:34:54 IST" name="Test" finished-at="2025-06-07T13:35:04 IST" duration-ms="10079">
-      <class name="com.entrata.testcases.TEst1">
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.entrata.testcases.TEst1@384ad17b]" started-at="2025-06-07T13:34:51 IST" name="browserSetup" finished-at="2025-06-07T13:34:54 IST" duration-ms="2731" status="PASS">
+    <test started-at="2025-06-09T01:03:12 IST" name="Test" finished-at="2025-06-09T01:03:36 IST" duration-ms="24136">
+      <class name="com.entrata.testcases.Test2">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.entrata.testcases.Test2@15ff3e9e]" started-at="2025-06-09T01:03:22 IST" name="testSetup" finished-at="2025-06-09T01:03:24 IST" duration-ms="2680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="testForinteractingWithDropDown()[pri:0, instance:com.entrata.testcases.Test2@15ff3e9e]" started-at="2025-06-09T01:03:24 IST" name="testForinteractingWithDropDown" finished-at="2025-06-09T01:03:30 IST" duration-ms="6057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForinteractingWithDropDown -->
+        <test-method signature="testForinteractingwithInputBox()[pri:0, instance:com.entrata.testcases.Test2@15ff3e9e]" started-at="2025-06-09T01:03:30 IST" name="testForinteractingwithInputBox" finished-at="2025-06-09T01:03:36 IST" duration-ms="5675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForinteractingwithInputBox -->
+      </class> <!-- com.entrata.testcases.Test2 -->
+      <class name="com.entrata.testcases.Test1">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.entrata.testcases.Test1@14dd9eb7]" started-at="2025-06-09T01:03:10 IST" name="browserSetup" finished-at="2025-06-09T01:03:12 IST" duration-ms="1943" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method signature="test1()[pri:0, instance:com.entrata.testcases.TEst1@384ad17b]" started-at="2025-06-07T13:34:54 IST" name="test1" finished-at="2025-06-07T13:35:04 IST" duration-ms="10038" status="PASS">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.entrata.testcases.Test1@14dd9eb7]" started-at="2025-06-09T01:03:12 IST" name="testSetup" finished-at="2025-06-09T01:03:18 IST" duration-ms="5947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="test1()[pri:0, instance:com.entrata.testcases.Test1@14dd9eb7]" started-at="2025-06-09T01:03:18 IST" name="test1" finished-at="2025-06-09T01:03:18 IST" duration-ms="363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.entrata.testcases.TEst1@384ad17b]" started-at="2025-06-07T13:35:04 IST" name="tearDown" finished-at="2025-06-07T13:35:04 IST" duration-ms="273" status="PASS">
+        <test-method signature="testPageNavigation()[pri:0, instance:com.entrata.testcases.Test1@14dd9eb7]" started-at="2025-06-09T01:03:18 IST" name="testPageNavigation" finished-at="2025-06-09T01:03:22 IST" duration-ms="3357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.entrata.testcases.Test1@14dd9eb7]" started-at="2025-06-09T01:03:36 IST" name="tearDown" finished-at="2025-06-09T01:03:36 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.entrata.testcases.TEst1 -->
+      </class> <!-- com.entrata.testcases.Test1 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
